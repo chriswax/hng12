@@ -1,23 +1,52 @@
-# hng12
-Stage 0 Backend - Develop a Public API to Retrieve Basic Information
+
+# API for Basic Information Retrieval
+
+##### This project involves creating a Public API that allows users to retrieve basic information, in a structured format. The API will follow REST principles and return data in JSON format for easy integration. This API is designed to be simple, scalable, and accessible for a variety of applications.
+
+## API Reference
+
+#### Get item
+
+```http
+  GET /https://hng12.udensco.com/api/task-0
+```
+
+
+#### Response
+```bash
+{
+    "email": "chriswax.ent@gmail.com",
+    "current_datetime": "2025-01-30T15:10:14Z",
+    "github_url": "https://github.com/chriswax/hng12"
+}
+```
 
 
 
-Documentation
-README.md must include:
-A clear description of the project.
-Setup instructions (e.g., how to run the project locally).
-API documentation, including:
-Endpoint URL.
-Request/response format.
-Example usage.
-One backlink related to your chosen programming language/stack:
-https://hng.tech/hire/python-developers
-https://hng.tech/hire/csharp-developers
-https://hng.tech/hire/golang-developers
+## Authors
+
+### Uzoigwe Christian
+
+
+## 🚀 About Me
+I'm a backend developer
 https://hng.tech/hire/php-developers
-https://hng.tech/hire/java-developers
-https://hng.tech/hire/nodejs-developers
-Deployment
-The API must be deployed to a publicly accessible endpoint.
-The API should have a fast response time (< 500ms).
+
+
+## 🛠 Skills
+Vanilla PHP
+
+
+## Installation
+
+
+```bash
+  Install Xampp 
+  Copy project to htdocs
+  Run Locally using browser or Postman
+  ::http://localhost/hng12/api/task-0
+```
+    
+## 🔗 Project Github Link
+### https://github.com/chriswax/hng12
+
