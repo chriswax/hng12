@@ -49,20 +49,6 @@ function getDigitSum ($number){
 //Generating a fun fact from the numbers api using armstrong function
 function getFunFact($number){
     if(IsArmstrong($number)){
-       $url = "http://numbersapi.com/".$number."/math";
-        $response = @file_get_contents($url);
-        if($response){
-            return $response;
-        }else{
-            return "No Fun Fact Found about this number, help to add by going to 'http://numbersapi.com/371/math'";
-        }         
-    }
-    return "Number is not an Armstrong number";
-}
-
-
-function getFunFact($number){
-    if(IsArmstrong($number)){
         $url = "http://numbersapi.com/".$number."/math";
         $ch = curl_init();
         
