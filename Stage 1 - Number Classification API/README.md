@@ -18,12 +18,12 @@ The fun fact should be fetched from the Numbers API.
 ## Requirements
 
 ### Technology Stack:
-- You may choose any programming language or framework (C#, PHP, Python, Go, Java, JS/TS).
+- Vanilla PHP
 
 ## API Specification
 
 ### Endpoint:
-`GET <your-domain.com>/api/classify-number?number=371`
+`GET https://hng12.udensco.com/api/classify-number?number=371`
 
 ### JSON Response Format (200 OK):
 
@@ -40,7 +40,7 @@ The fun fact should be fetched from the Numbers API.
 
 ### Endpoint:
 
-`GET <your-domain.com>/api/classify-number?number=hello`
+`GET https://hng12.udensco.com/api/classify-number?number=hello`
 
 ### JSON Response Format (400  Bad Request):
 
