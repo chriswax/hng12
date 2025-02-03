@@ -36,7 +36,7 @@ The fun fact should be fetched from the Numbers API.
   "digit_sum": 11,
   "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371"
 }
-
+```
 
 ### Endpoint:
 
@@ -49,7 +49,7 @@ The fun fact should be fetched from the Numbers API.
   "number": "alphabet",
   "error": true
 }
-
+```
 
 ## Authors
 
