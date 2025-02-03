@@ -15,21 +15,10 @@ Create an API that accepts a number and returns:
 
 The fun fact should be fetched from the Numbers API.
 
-
 ## Requirements
 
 ### Technology Stack:
 - You may choose any programming language or framework (C#, PHP, Python, Go, Java, JS/TS).
-
-### Functionality:
-- The API must be deployed to a publicly accessible endpoint.
-- It must handle CORS (Cross-Origin Resource Sharing).
-- The API must return responses in JSON format.
-
-### Version Control:
-- Code must be hosted on GitHub.
-- The repository must be public.
-- The repository must include a well-structured `README.md` file.
 
 ## API Specification
 
@@ -67,16 +56,15 @@ The fun fact should be fetched from the Numbers API.
 
 
 ## 🚀 About Me
-I'm a backend developer
-https://hng.tech/hire/php-developers
+### I'm a backend developer
+### https://hng.tech/hire/php-developers
 
 
 ## 🛠 Skills
-Vanilla PHP, Laravel, C#
+#### Vanilla PHP, Laravel, C#
 
 
 ## Installation
-
 
 ```bash
   Install Xampp 
@@ -86,5 +74,4 @@ Vanilla PHP, Laravel, C#
 ```
     
 ## 🔗 Project Github Link
-https://github.com/chriswax/hng12
-
+https://github.com/chriswax/hng12/tree/main/Stage%201%20-%20Number%20Classification%20API
