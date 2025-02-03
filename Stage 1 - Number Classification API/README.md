@@ -39,6 +39,7 @@ The fun fact should be fetched from the Numbers API.
 
 
 ### Endpoint:
+
 `GET <your-domain.com>/api/classify-number?number=hello`
 
 ### JSON Response Format (400  Bad Request):
@@ -56,11 +57,13 @@ The fun fact should be fetched from the Numbers API.
 
 
 ## 🚀 About Me
+
 ### I'm a backend developer
 ### https://hng.tech/hire/php-developers
 
 
 ## 🛠 Skills
+
 #### Vanilla PHP, Laravel, C#
 
 
