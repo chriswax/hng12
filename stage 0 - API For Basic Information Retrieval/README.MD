@@ -1,4 +1,3 @@
-
 # API for Basic Information Retrieval
 
 ##### This project involves creating a Public API that allows users to retrieve basic information, in a structured format. The API will follow REST principles and return data in JSON format for easy integration. This API is designed to be simple, scalable, and accessible for a variety of applications.
@@ -10,7 +9,6 @@
 ```http
   GET /https://hng12.udensco.com/api/task-0
 ```
-
 
 #### Response
 ```bash
