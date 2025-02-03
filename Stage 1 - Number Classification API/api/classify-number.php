@@ -49,8 +49,8 @@ function getDigitSum ($number){
 //Generating a fun fact from the numbers api using armstrong function
 function getFunFact($number){
     if(IsArmstrong($number)){
-        $url = "http://numbersapi.com/".$number."/math";
-        $response = file_get_contents($url);
+       $url = "http://numbersapi.com/".$number."/math";
+        $response = @file_get_contents($url);
         if($response){
             return $response;
         }else{
@@ -59,6 +59,34 @@ function getFunFact($number){
     }
     return "Number is not an Armstrong number";
 }
+
+
+function getFunFact($number){
+    if(IsArmstrong($number)){
+        $url = "http://numbersapi.com/".$number."/math";
+        $ch = curl_init();
+        
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($ch);
+    
+        if(curl_errno($ch)){
+            curl_close($ch);
+            return "Error fetching fun fact. Please try again later.";
+        }
+        
+        curl_close($ch);
+        
+        if(empty($response)){
+            return "No Fun Fact Found about this number. You can help add one by going to 'http://numbersapi.com/{$number}/math'";
+        } else {
+            return $response;
+        }
+    } else {
+        return "Number is not an Armstrong number";
+    }
+}
+
 
 
 if(isset($_GET['number']) && is_numeric($_GET['number'])){ //ensure that the request has a numeric parameter
